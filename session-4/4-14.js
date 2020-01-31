@@ -1,0 +1,10 @@
+const util = require('util')
+let str1 = util.format('%s is %d','bakenray',27)
+let str2 = util.format('%s is %s%s','bakenray','fedev')
+let str3 = util.format('%s is ','bakenray','fedev')
+let str4 = util.format('bakenray','is','fedev')
+
+console.log('参数一致',str1)
+console.log('占位符比参数多',str2)
+console.log('占位符比参数少',str3)
+console.log('没有占位符',str4)
