@@ -1,0 +1,14 @@
+{
+  "name": "session-7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "7-1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.9.1"
+  }
+}
